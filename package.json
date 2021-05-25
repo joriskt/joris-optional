@@ -1,0 +1,34 @@
+{
+    "name": "joris-optional",
+    "version": "1.0.1",
+    "description": "A simple utility package that provides a typed Optional class.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joriskt/joris-optional.git"
+    },
+    "keywords": [
+        "joris",
+        "optional",
+        "typescript",
+        "util",
+        "utility",
+        "types"
+    ],
+    "author": "Joris Klein Tijssink",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/joriskt/joris-optional/issues"
+    },
+    "homepage": "https://github.com/joriskt/joris-optional#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "prettier": "^2.3.0",
+        "typescript": "^4.2.4"
+    }
+}
